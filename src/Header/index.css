@@ -1,0 +1,44 @@
+.nav-card {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  padding: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #2c364c;
+  list-style-type: none;
+  margin: 0px;
+}
+.home-logo {
+  height: 50px;
+}
+.menu {
+  width: 130px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.link {
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Roboto';
+  font-size: 19px;
+}
+
+.log-out {
+  background-color: #4f46e5;
+  color: #fff;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 15px;
+  width: 120px;
+  height: 40px;
+  border: 0px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.home-btn-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
