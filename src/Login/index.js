@@ -17,8 +17,8 @@ class Login extends Component {
   loginSite = async event => {
     event.preventDefault()
     const {user, pass} = this.state
-    const username = user === 'vedant' ? 'rahul' : user
-    const password = pass === 'vedzz@123' ? 'rahul@2021' : pass
+    const username = user === 'zishan' ? 'rahul' : user
+    const password = pass === 'zishan@2024' ? 'rahul@2021' : pass
     const userDetails = {username, password}
     const options = {
       method: 'POST',
